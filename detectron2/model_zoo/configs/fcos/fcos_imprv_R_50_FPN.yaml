@@ -1,0 +1,6 @@
+# FCOS with improvements
+_BASE_: "../Base-FCOS.yaml"
+MODEL:
+  WEIGHTS: "./pretrained_models/R-50.pkl"
+  RESNETS:
+    DEPTH: 50
